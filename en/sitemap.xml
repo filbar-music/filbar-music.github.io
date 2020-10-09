@@ -4,6 +4,7 @@
   
   <url>
     <loc>/</loc>
+    <lastmod>2020-10-02T15:13:10-07:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -15,6 +16,16 @@
                 hreflang="en"
                 href="/"
                 />
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2020-10-02T15:13:10-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/tonelab-le-as-a-midi-board/</loc>
+    <lastmod>2020-10-02T15:13:10-07:00</lastmod>
   </url>
   
   <url>
