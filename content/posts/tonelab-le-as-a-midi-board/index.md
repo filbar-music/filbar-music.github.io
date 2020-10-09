@@ -1,7 +1,7 @@
 ---
 title: "Tonelab LE as a MIDI Controller"
 date: 2020-10-02T15:13:10-07:00
-draft: true
+draft: false
 ---
 
 Years ago I bought a VOX ToneLab LE to augment the collection of dedicated guitar effects that I was using. Fast forward a lot of years, I have sold nearly all my original guitar pedals but I still have two: my original CryBaby (I mean, how could I part with it?!?) and the ToneLab LE (because no one wanted to buy it).
