@@ -12,7 +12,7 @@ then
     git config user.email "filbar-music-bot@users.noreply.github.com"
     git config user.name "filbar-music-bot"
 fi
-	
+
 git add .
 git commit -m "Rebuild site"
-git push --force origin HEAD:master
+git push --force origin HEAD:main
