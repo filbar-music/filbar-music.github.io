@@ -12,4 +12,4 @@
 	url = https://github.com/rhazdon/hugo-theme-hello-friend-ng.git
 [submodule "public"]
 	path = public
-	url = https://github.com/filbar-music/filbar.github.io.git
+	url = https://github.com/filbar-music/filbar-music.github.io.git
