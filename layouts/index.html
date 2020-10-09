@@ -1,0 +1,30 @@
+{{ define "main" }}
+    <main aria-role="main">
+        <div>
+            {{ if .Site.Params.Portrait.Path }}
+               <img src="{{ .Site.Params.Portrait.Path }}" class="circle" alt="{{ .Site.Params.Portrait.Alt }}" style="max-width:{{ .Site.Params.Portrait.MaxWidth }}" />
+            {{ end }}
+
+
+            {{- with .Site.Params.social }}
+                <div>
+                    {{ partial "social-icons.html" . }}
+                </div>
+            {{- end }}
+        </div>
+    </main>
+
+    <div style="width: 80%">
+      <div style="float: left; width: 50%">
+        <h3>{{ .Site.Params.listenToMusic }}</h3>
+        <div style="float: left; width: 50%; padding: .5em; min-width: 270px">
+          <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/899640058&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"></iframe>
+        </div>
+        <div style="float: left; width: 50%; padding: .5em; min-width: 270px">
+          <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/874238203&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"></iframe>
+        </div>
+      </div>
+      <div style="float: left; width: 50%">
+      </div>
+    </div>
+{{ end }}

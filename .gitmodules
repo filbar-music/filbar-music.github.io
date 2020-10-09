@@ -1,0 +1,12 @@
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/budparr/gohugo-theme-ananke.git
+[submodule "themes/meghna"]
+	path = themes/meghna
+	url = https://github.com/themefisher/meghna-hugo
+[submodule "theme/hugo-incorporated"]
+	path = theme/hugo-incorporated
+	url = https://github.com/nilproductions/hugo-incorporated
+[submodule "themes/hello-friend-ng"]
+	path = themes/hello-friend-ng
+	url = https://github.com/rhazdon/hugo-theme-hello-friend-ng.git
