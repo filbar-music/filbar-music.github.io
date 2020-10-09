@@ -1,3 +1,6 @@
 [submodule "public"]
 	path = public
 	url = https://github.com/filbar-music/filbar-music.github.io.git
+[submodule "themes/hello-friend-ng"]
+	path = themes/hello-friend-ng
+	url = https://github.com/filbar-music/hugo-theme-hello-friend-ng.git
