@@ -8,4 +8,6 @@ When I started venturing from software to hardware synthesizers I didn't know wh
 
 Turns out that isn't quite so easy to do when you have a small handful of exclusively analog modules ¯\\_(ツ)_/¯.
 
+ADD Audio
+
 
